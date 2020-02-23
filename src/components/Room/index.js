@@ -2,6 +2,7 @@ import React from 'react';
 import SearchInput from '../SearchInput';
 import DropdownMenu from '../DropdownMenu';
 import AccountMenu from '../AccountMenu';
+import Board from '../Board';
 import styles from './index.module.css';
 
 class Room extends React.Component {
@@ -20,7 +21,7 @@ class Room extends React.Component {
         </div>
         <div className={styles.container}>
           <div className={styles.sidebar}></div>
-          <div className={styles.board} />
+          <Board />
         </div>
       </div>
     );
