@@ -1,4 +1,6 @@
 .wrapper {
+  height: 60px;
+  width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,10 +14,12 @@
   height: 100%;
   cursor: pointer;
 
+  font-family: "Montserrat", serif;
   font-size: 14px;
   letter-spacing: 0;
   color: #25265e;
-  font-weight: 500;
+  font-weight: bold;
+  transition: .1s;
 }
 
 .menu:hover {

@@ -6,3 +6,8 @@
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "S FPro Display";
+  src: url(./fonts/SFProDisplayThin.ttf) format("truetype");
+}
